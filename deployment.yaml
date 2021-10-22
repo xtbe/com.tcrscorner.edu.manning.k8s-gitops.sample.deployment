@@ -14,8 +14,8 @@ spec:
         app: hello-world-go-app
     spec:
       containers:
-      - name:  helloworld-go-app
-        image: helloworld
+      - image: helloworld:fea3a76
         imagePullPolicy: Never
+        name: helloworld-go-app
         ports:
-        - containerPort: 3000  
+        - containerPort: 3000
